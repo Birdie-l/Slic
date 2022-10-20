@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="normalize.css">
+    <link rel="stylesheet" href="Styles.css">
+    <!-- <script src="jquery-3.61-min.js"></script> -->
+    <script src='jquery-3.6.1.min.js'></script>
+    <title>SlicTracker</title>
+</head>
+
+<body>
+    <header class="siteHeader"> SOMETHING BEAUTIFUL!</header>
+
+    <div class="logForm">
+        <div class="dateRow">
+            <div class="date">
+                <h2>[Date]</h2>
+            </div>
+            <div class="date hours">
+                <h2>[Hours per Date]</h2>
+            </div>
+        </div>
+        <div>
+            <div id="1" class="exampleLine">
+                <form action="#" class="line">
+                    <input class="inputTime" type="datetime" placeholder="Data" required>
+                    <input class="inputDescription" type="text" placeholder="Description" required>
+                    <button onclick="copy()" class="button copy">
+                        <img class="iconcopy" src="images/copy (1).png" alt="Button copy">
+                    </button>
+                    <button onclick="deleteB(this)" class="button delete">
+                        <img class="img.delete" src="images/recycle-bin.png" alt="Button delete">
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="emptyLine">
+            <form action="#" class="line">
+                <input class="inputTime" type="datetime" placeholder="Data" required>
+                <input class="inputDescription" type="text" placeholder="Description" required>
+                <button onclick="newLine()" class="button new">
+                    <img class="iconplus" src="images/add (6).png" alt="Button plus">
+                </button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

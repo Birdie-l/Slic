@@ -1,0 +1,114 @@
+body {
+  background-image: url(images/pexels-dmitry-demidov-3800468.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.siteHeader {
+  height: 65px;
+  background-color: rgba(0, 0, 0, 0.498);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5px;
+}
+
+.logForm {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 15px;
+  margin: 25px auto;
+  max-width: 990px;
+  border: 1px groove rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.849);
+}
+
+.dateRow {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.date {
+  display: flex;
+  padding: 5px;
+  min-width: 50px;
+  max-height: 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(128, 128, 128, 0.758);
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.exampleLine,
+.emptyLine {
+  width: 100%;
+  height: 50px;
+  float: left;
+  border-radius: 5px;
+  border: 1px groove rgb(0, 0, 0);
+  background-color: rgba(128, 128, 128, 0.758);
+}
+
+.line {
+  padding: 5px;
+  display: flex;
+}
+
+.inputTime {
+  width: 50px;
+}
+
+.inputDescription {
+  width: 90%;
+}
+
+
+.line input[type="datetime"],
+.line input[type="text"] {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  font-size: 12px;
+  outline: none;
+}
+
+.line input[type="datetime"]:hover,
+.line input[type="text"]:hover {
+border: 1.5px solid red;
+}
+
+.button
+ {
+  width: 38px;
+  height: 38px;
+  margin-right: 5px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.copy,
+.delete,
+.new {
+  background-color: rgba(72, 55, 46, 0);
+}
+
+.copy:hover,
+.delete:hover,
+.new:hover {
+ background-color: rgb(240, 240, 243);
+ border-color: red;
+}
